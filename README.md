@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## About
 
-You can use the [editor on GitHub](https://github.com/tielm1997/LiveColor_Website/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The aim of this project is to provide the user with an app for all their color-picking needs. Simply take a photo with your camera or upload an existing image to begin. Save your favorite colors, make palettes, generate harmonies, and edit colors. The Color Info page makes it easy to copy the HEX, RGB, and HSV values of your chosen color so you can use your favorite colors elsewhere.
 
 ### Markdown
 
@@ -28,10 +26,13 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 [To Google](https://www.google.com) and ![Image](/duck.jpg)
-### Jekyll Themes
+### Installation
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tielm1997/LiveColor_Website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Download **[Android Studio](https://developer.android.com/studio)**
+- Set up GitHub through Android Studio’s VCS options
+- Download the project
+- Using Android Studio’s AVD manager, set up and run an emulator using Pixel 2 API 27
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Sources
+[Color Names](https://github.com/meodai/color-names#about-)\
+[Touch View](https://github.com/MikeOrtiz/TouchImageView)
