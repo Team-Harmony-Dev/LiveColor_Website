@@ -33,3 +33,4 @@ The aim of this project is to provide the user with an app for all their color-p
 - Using Android Studio’s AVD manager, set up and run an emulator using Pixel 2 API 27
 
 ## About Us
+<a href="./credits.html">Meet the Team!</a>
