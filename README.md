@@ -9,16 +9,19 @@ The aim of this project is to provide the user with an app for all their color-p
 ### Color Picking
 
 <img height="322" src="color_picker.gif">
+
 ---
 
 ### Color Info
 
 <img height="322" src="color_info.png">
+
 ---
 
 ### Harmonies
 
 <img height="322" src="harmonies.png">
+
 ---
 
 [To Google](https://www.google.com) and ![Image](/duck.jpg)
