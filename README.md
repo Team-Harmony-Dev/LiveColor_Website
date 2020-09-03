@@ -24,7 +24,6 @@ The aim of this project is to provide the user with an app for all their color-p
 
 ---
 
-[To Google](https://www.google.com) and ![Image](/duck.jpg)
 ### Installation
 
 - Download **[Android Studio](https://developer.android.com/studio)**
