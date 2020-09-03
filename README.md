@@ -17,7 +17,7 @@ The aim of this project is to provide the user with an app for all their color-p
 ### Harmonies
 
 <img height="322" src="harmonies.png">
-***
+***:
 [To Google](https://www.google.com) and ![Image](/duck.jpg)
 ### Installation
 
