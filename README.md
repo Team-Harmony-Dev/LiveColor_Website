@@ -10,10 +10,12 @@ The aim of this project is to provide the user with an app for all their color-p
 
 <img height="322" src="color_picker.gif">
 ---
+
 ### Color Info
 
 <img height="322" src="color_info.png">
 ---
+
 ### Harmonies
 
 <img height="322" src="harmonies.png">
