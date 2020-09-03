@@ -2,6 +2,7 @@
 
 The aim of this project is to provide the user with an app for all their color-picking needs. Simply take a photo with your camera or upload an existing image to begin. Save your favorite colors, make palettes, generate harmonies, and edit colors. The Color Info page makes it easy to copy the HEX, RGB, and HSV values of your chosen color so you can use your favorite colors elsewhere.
 
+### Features
 Color Picking              | Color Info                | Harmonies                |
 :-------------------------:|:-------------------------:|:-------------------------:
 <img height="322" src="color_picker.gif">  | <img height="322" src="color_info.png"> | <img height="322" src="harmonies.png">
