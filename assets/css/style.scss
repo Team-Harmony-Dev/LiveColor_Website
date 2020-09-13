@@ -14,17 +14,16 @@
   box-sizing: border-box;
 }
 
-.small {
+.column {
   float:left;
-  width:25%;
-  padding: 0 10px;
-}
-
-.large {
-  float:left;
-  width:75;
+  width:100%;
   padding: 0 10px;
 }
 
 .row {margin: 0 -5px;}
 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
