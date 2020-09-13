@@ -1,9 +1,6 @@
 <h1>Team Members</h1>
 <div>
   <img class="profileImg" src="paige.jpg">
-</div>
-<h2>Paige Riola</h2>
-<div>
   <h2>Paige Riola</h2>
   <p>"I love AI and automation, so naturally I chose to help with UI on a
                                 color picking app. I very much enjoy developing with friends, even
@@ -13,7 +10,6 @@
 <div>
   <img class="profileImg" src="gabby.jpg">
 </div>
-<h2>Paige Riola</h2>
 <div>
   <h2>Gabriella Lindsety</h2>
   <p>"I love AI and automation, so naturally I chose to help with UI on a
