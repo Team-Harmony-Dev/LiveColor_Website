@@ -6,7 +6,7 @@
     <div class="container">
       <img class="profileImg" alt="Paige Riola" src="paige.jpg">
       <div class="overlay">
-        <a href="https://facebook.com" class="icon" title="User Profile">
+        <a href="https://facebook.com" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
         </a>
       </div>
