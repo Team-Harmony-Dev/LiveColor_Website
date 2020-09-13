@@ -14,14 +14,19 @@
   box-sizing: border-box;
 }
 
-.column {
-  float:left;
-  width:100%;
-  padding: 0 10px;
+.profile {
+  float: left;
+  width: 25%;
+  padding: 10px;
 }
 
-.row {margin: 0 -5px;}
+.message {
+  float: left;
+  width: 75%;
+  padding: 10px;
+}
 
+/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
