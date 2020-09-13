@@ -1,9 +1,7 @@
 <h1>Team Members</h1>
 <div class="row">
-  <div class="column small">
+  <div class="column">
     <img class="profileImg" src="paige.jpg">
-  </div>
-  <div class="column large">
     <h2>Paige Riola</h2>
     <p>I love AI and automation, so naturally I chose to help with UI on a
                                 color picking app. I very much enjoy developing with friends, even
