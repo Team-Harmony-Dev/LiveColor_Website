@@ -42,11 +42,8 @@
 /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
-  /*width: 100%;
-  max-width: 400px;*/
-  width: auto;
-  height: auto;
-  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
 }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
@@ -83,7 +80,7 @@
 }
 
 /* When you move the mouse over the icon, change color */
-.fa-user:hover {
+.fa-linkedin:hover {
   color: white;
 }
 /* ---------------------------- */
