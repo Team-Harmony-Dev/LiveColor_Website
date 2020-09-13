@@ -60,6 +60,7 @@
   transition: .3s ease;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
 
 /* When you mouse over the container, fade in the overlay icon*/
@@ -77,5 +78,10 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* When you move the mouse over the icon, change color */
+.fa-user:hover {
+  color: white;
 }
 /* ---------------------------- */
