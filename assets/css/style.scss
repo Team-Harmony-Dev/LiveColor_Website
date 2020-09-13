@@ -36,34 +36,3 @@
   display: table;
   clear: both;
 }
-
-/* CSS for Social Media Buttons */
-
-/* Style all font awesome icons */
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: auto;
-  height: auto;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-/* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-linkedin {
-  float: left;
-  background: #007bb5;
-  color: white;
-}
-
-.fa-github {
-  float: right;
-  background: #79b8ff;
-  color: black;
-}
-/* ------------------------------*/
