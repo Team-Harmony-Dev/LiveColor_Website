@@ -2,12 +2,14 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <h1 class="title">Team Members</h1>
 <div class="row">
-  <div class="column profile container">
-    <img class="profileImg" alt="Paige Riola" src="paige.jpg">
-    <div class="overlay">
-      <a href="https://facebook.com" class="icon" title="User Profile">
-        <i class="fa fa-linkedin"></i>
-      </a>
+  <div class="column profile">
+    <div class="container">
+      <img class="profileImg" alt="Paige Riola" src="paige.jpg">
+      <div class="overlay">
+        <a href="https://facebook.com" class="icon" title="User Profile">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
     </div>
   </div>
   <div class="column message">
