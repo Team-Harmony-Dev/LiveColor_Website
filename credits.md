@@ -4,10 +4,10 @@
 <div class="row">
   <div class="column profile">
     <img class="profileImg" src="paige.jpg">
+    <a href="https://facebook.com" class="fa fa-linkedin"></a>
   </div>
   <div class="column message">
     <h2>Paige Riola</h2>
-    <a href="https://facebook.com" class="fa fa-facebook"></a>
     <p>I love AI and automation, so naturally I chose to help with UI on a
                                 color picking app. I very much enjoy developing with friends, even
                                 if it's outside of my comfort zone. My favorite color in the app is
