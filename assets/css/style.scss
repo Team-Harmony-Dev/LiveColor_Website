@@ -45,23 +45,21 @@
   width: 100%;
   height: auto;
   max-width: 400px;
-  margin: -5px -5px -5px -5px;
 }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
   height: auto;
-  width: auto;/* was 100% and ^ */
+  width: 100%;/* was 100% and ^ */
   opacity: 0;
   transition: .3s ease;
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5);
-  
   border-radius: 50%;
 }
 
@@ -83,7 +81,7 @@
 }
 
 /* When you move the mouse over the icon, change color */
-.fa-linkedin:hover {
+.fa-facebook:hover {
   color: white;
 }
 /* ---------------------------- */
