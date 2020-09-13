@@ -1,2 +1,2 @@
-<b class="creditsTitle>Team Members</b>
+<b>Team Members</b>
 <img class="profileImg" src="duck.jpg">
