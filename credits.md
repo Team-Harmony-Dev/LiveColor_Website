@@ -1,4 +1,4 @@
-<h1>Team Members</h1>
+<h1 class="title">Team Members</h1>
 <div class="row">
   <div class="column profile">
     <img class="profileImg" src="paige.jpg">
