@@ -3,9 +3,7 @@
 <h1 class="title">Team Members</h1>
 <div class="row">
   <div class="column profile">
-    <img class="profileImg" src="paige.jpg">
-    <a href="https://facebook.com" class="fa fa-linkedin"></a>
-    <a href="https://facebook.com" class="fa fa-github"></a>
+    <a href="https://facebook.com"><img class="profileImg" src="paige.jpg"></a>
   </div>
   <div class="column message">
     <h2>Paige Riola</h2>
