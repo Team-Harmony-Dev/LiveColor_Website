@@ -44,8 +44,6 @@
   position: relative;
   width: 100%;
   max-width: 400px;
-  
-  border-radius: 50%;
 }
 
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
@@ -74,7 +72,7 @@
 /* The icon inside the overlay is positioned in the middle vertically and horizontally */
 .icon {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
