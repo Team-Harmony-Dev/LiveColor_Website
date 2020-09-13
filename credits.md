@@ -109,10 +109,9 @@
   </div>
   <div class="message">
     <h2>Melanie Wong</h2>
-    <p>I love AI and automation, so naturally I chose to help with UI on a
-                                color picking app. I very much enjoy developing with friends, even
-                                if it's outside of my comfort zone. My favorite color in the app is
-                                called "Jedi Night" a deep dark green.</p>
+    <p>I’m interested in learning and applying modern technologies such as 
+                                mobile development and cloud computing to create meaningful experiences 
+                                for users. My favorite color from the app is called Blue Nebula.</p>
   </div>
 </div>
 <div class="row">
