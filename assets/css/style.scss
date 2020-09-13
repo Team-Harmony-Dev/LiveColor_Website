@@ -9,6 +9,22 @@
   width: 150px;
   height: 150px;
 }
-.creditsTitle {
-  text-align: center;
+
+* {
+  box-sizing: border-box;
 }
+
+.small {
+  float:left;
+  width:25%;
+  padding: 0 10px;
+}
+
+.large {
+  float:left;
+  width:75;
+  padding: 0 10px;
+}
+
+.row {margin: 0 -5px;}
+
