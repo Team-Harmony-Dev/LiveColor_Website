@@ -1,2 +1,2 @@
 ## Hello
-<img src="duck.jpg">
+<img class="profileImg" src="duck.jpg">
