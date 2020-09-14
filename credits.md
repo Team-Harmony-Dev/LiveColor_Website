@@ -75,7 +75,7 @@
                                 color picking app. I very much enjoy developing with friends, even
                                 if it's outside of my comfort zone. My favorite color in the app is
                                 called 
-                                <div class="popup" onclick="myFunction("daniel")">"Jedi Night"
+                                <div class="popup" onclick="myFunction(daniel)">"Jedi Night"
                                   <span class="popupsquare" id="danielPopup"><div class="square" style="background-color: #041108;"></div></span>
                                 </div> a deep dark green.</span>
   </div>
@@ -97,7 +97,7 @@
                                 solve unique problems. I am very grateful for the opportunity to work
                                 on this project alongside my colleagues and friends. My favourite color
                                 in the app is called 
-                                <div class="popup" onclick="myFunction("shealtiel")">"Aggressive Baby Blue"
+                                <div class="popup" onclick="myFunction(shealtiel)">"Aggressive Baby Blue"
                                   <span class="popupsquare" id="shealtielPopup"><div class="square" style="background-color: #6fffff;"></div></span>
                                 </div> what a silly name!</span>
   </div>
@@ -143,6 +143,7 @@
 <script>
 // When the user clicks on div, open the popup
 function myFunction(name) {
+  name = name.tostring();
   if (name === "daniel") {
     var popup = document.getElementById("danielPopup");
   } elif (name === "shealtiel") {
