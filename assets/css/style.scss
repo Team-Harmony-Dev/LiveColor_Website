@@ -121,8 +121,7 @@
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  /*margin-left: -80px;*/
-  margin: auto;
+  margin-left: -80px;
 }
 
 /* Popup arrow */
@@ -135,7 +134,6 @@
   border-width: 5px;
   border-style: solid;
   border-color: #dbdbdb transparent transparent transparent;
-  margin: auto;
 }
 
 /* Toggle this class - hide and show the popup */
