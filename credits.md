@@ -71,10 +71,13 @@
   </div>
   <div class="message">
     <h2>Daniel Luft-Martinez</h2>
-    <p>I love AI and automation, so naturally I chose to help with UI on a
+    <span>I love AI and automation, so naturally I chose to help with UI on a
                                 color picking app. I very much enjoy developing with friends, even
                                 if it's outside of my comfort zone. My favorite color in the app is
-                                called "Jedi Night" a deep dark green.</p>
+                                called 
+                                <div class="popup" onclick="myFunction()">"Jedi Night"
+                                  <span class="popupsquare" id="myPopup"><div class="square" style="background-color: #041108;"></div></span>
+                                </div> a deep dark green.</span>
   </div>
 </div>
 <div class="row">
