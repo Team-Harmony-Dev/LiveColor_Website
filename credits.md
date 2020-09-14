@@ -80,7 +80,7 @@
 <div class="row">
   <div class="profile">
     <div class="container">
-      <img class="profileImg" alt="Shealtiel Mulder" src="shealtiel.png" style="background-clip: content-box; box-shadow: inset 0 0 0 15px lightblue;">
+      <img class="profileImg" alt="Shealtiel Mulder" src="shealtiel.png" style="background-clip: content-box; box-shadow: inset 0 0 0 15px #6fffff;">
       <div class="overlay">
         <a href="https://www.linkedin.com/in/shealtiel-mulder-6329641b0/" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
