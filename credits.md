@@ -61,7 +61,7 @@
 <div class="row">
   <div class="profile">
     <div class="container">
-      <img class="profileImg" alt="Daniel Luft-Martinez" src="daniel.jpg">
+      <img class="profileImg" alt="Daniel Luft-Martinez" src="daniel.jpg" style="background-clip: content-box; box-shadow: inset 0 0 0 15px #041108;">
       <div class="overlay">
         <a href="https://www.linkedin.com/in/daniel-luft-martinez/" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
