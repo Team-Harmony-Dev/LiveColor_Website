@@ -93,7 +93,7 @@
 .square {
   height: 50px;
   width: 50px;
-  /*background-color: #6fffff;*/ This is done inline since it varies per person
+  /*background-color: #6fffff; This is done inline since it varies per person*/
   margin: auto;
 }
 
@@ -135,6 +135,7 @@
   border-width: 5px;
   border-style: solid;
   border-color: #dbdbdb transparent transparent transparent;
+  margin: auto;
 }
 
 /* Toggle this class - hide and show the popup */
