@@ -121,7 +121,7 @@
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  margin-left: -40px; /* Originally this was 80. This "centers" the popup for some reason*/
 }
 
 /* Popup arrow */
