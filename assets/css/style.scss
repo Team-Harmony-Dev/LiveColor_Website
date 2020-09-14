@@ -98,7 +98,7 @@
 }
 
 /* Popup container - can be anything you want */
-.popup { /*make text blue?*/
+.popup { 
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -121,7 +121,7 @@
   z-index: 1;
   bottom: 125%;
   left: 50%;
-  margin-left: -80px;
+  /*margin-left: -80px;*/
   margin: auto;
 }
 
