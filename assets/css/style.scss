@@ -108,7 +108,7 @@
 }
 
 /* The actual popup */
-.popup .popuptext {
+.popup .popupsquare {
   visibility: hidden;
   width: 160px;
   background-color: #555;
@@ -123,7 +123,7 @@
 }
 
 /* Popup arrow */
-.popup .popuptext::after {
+.popup .popupsquare::after {
   content: "";
   position: absolute;
   top: 100%;
