@@ -90,12 +90,12 @@
   </div>
   <div class="message">
     <h2>Shealtiel Mulder</h2>
-    <p>I enjoy creating beautiful UI experiences and using programming to
+    <span>I enjoy creating beautiful UI experiences and using programming to
                                 solve unique problems. I am very grateful for the opportunity to work
                                 on this project alongside my colleagues and friends. My favourite color
-                                in the app is called <span class="popup" onclick="myFunction()">"Aggressive Baby Blue"
+                                in the app is called <div class="popup" onclick="myFunction()">"Aggressive Baby Blue"
                                   <span class="popupsquare" id="myPopup"><div class="square"></div></span>
-                                </span> what a silly name!</p>
+                                </div> what a silly name!</span>
   </div>
 </div>
 <div class="row">
