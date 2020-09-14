@@ -136,3 +136,11 @@
                                 called "Jedi Night" a deep dark green.</p>
   </div>
 </div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
