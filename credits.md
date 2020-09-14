@@ -143,7 +143,7 @@
 <script>
 // When the user clicks on div, open the popup
 function myFunction(name) {
-  name = name.tostring();
+  name = name.toString();
   if (name === "daniel") {
     var popup = document.getElementById("danielPopup");
   } elif (name === "shealtiel") {
