@@ -75,8 +75,8 @@
                                 color picking app. I very much enjoy developing with friends, even
                                 if it's outside of my comfort zone. My favorite color in the app is
                                 called 
-                                <div class="popup" onclick="myFunction()">"Jedi Night"
-                                  <span class="popupsquare" id="myPopup"><div class="square" style="background-color: #041108;"></div></span>
+                                <div class="popup" onclick="myFunction("daniel")">"Jedi Night"
+                                  <span class="popupsquare" id="danielPopup"><div class="square" style="background-color: #041108;"></div></span>
                                 </div> a deep dark green.</span>
   </div>
 </div>
@@ -97,8 +97,8 @@
                                 solve unique problems. I am very grateful for the opportunity to work
                                 on this project alongside my colleagues and friends. My favourite color
                                 in the app is called 
-                                <div class="popup" onclick="myFunction()">"Aggressive Baby Blue"
-                                  <span class="popupsquare" id="myPopup"><div class="square" style="background-color: #6fffff;"></div></span>
+                                <div class="popup" onclick="myFunction("shealtiel")">"Aggressive Baby Blue"
+                                  <span class="popupsquare" id="shealtielPopup"><div class="square" style="background-color: #6fffff;"></div></span>
                                 </div> what a silly name!</span>
   </div>
 </div>
@@ -142,8 +142,12 @@
 
 <script>
 // When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
+function myFunction(name) {
+  if (name === "daniel") {
+    var popup = document.getElementById("danielPopup");
+  } elif (name === "shealtiel") {
+    var popup = document.getElementById("shealtielPopup");
+  }
   popup.classList.toggle("show");
 }
 </script>
