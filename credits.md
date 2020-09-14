@@ -95,7 +95,7 @@
                                 on this project alongside my colleagues and friends. My favourite color
                                 in the app is called 
                                 <div class="popup" onclick="myFunction()">"Aggressive Baby Blue"
-                                  <span class="popupsquare" id="myPopup"><div class="square" style="color: #6fffff></div></span>
+                                  <span class="popupsquare" id="myPopup"><div class="square" style="color: #6fffff;"></div></span>
                                 </div> what a silly name!</span>
   </div>
 </div>
