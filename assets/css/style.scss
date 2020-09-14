@@ -93,7 +93,7 @@
 .square {
   height: 50px;
   width: 50px;
-  background-color: #6fffff;
+  /*background-color: #6fffff;*/ This is done inline since it varies per person
   margin: auto;
 }
 
@@ -122,6 +122,7 @@
   bottom: 125%;
   left: 50%;
   margin-left: -80px;
+  margin: auto;
 }
 
 /* Popup arrow */
