@@ -108,12 +108,10 @@
 }
 
 /* The actual popup */
-.popup .popupsquare {
+.popup .popuptext {
   visibility: hidden;
-  height: 50px;
-  width: 50px;
+  width: 160px;
   background-color: #555;
-  color: #6fffff; /*whatever the persons favorite color is*/
   text-align: center;
   border-radius: 6px;
   padding: 8px 0;
