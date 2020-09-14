@@ -93,8 +93,9 @@
     <span>I enjoy creating beautiful UI experiences and using programming to
                                 solve unique problems. I am very grateful for the opportunity to work
                                 on this project alongside my colleagues and friends. My favourite color
-                                in the app is called <div class="popup" onclick="myFunction()">"Aggressive Baby Blue"
-                                  <span class="popupsquare" id="myPopup"><div class="square"></div></span>
+                                in the app is called 
+                                <div class="popup" onclick="myFunction()">"Aggressive Baby Blue"
+                                  <span class="popupsquare" id="myPopup"><div class="square" style="color: #6fffff></div></span>
                                 </div> what a silly name!</span>
   </div>
 </div>
