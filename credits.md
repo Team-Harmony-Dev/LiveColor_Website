@@ -61,7 +61,7 @@
 <div class="row">
   <div class="profile">
     <div class="container">
-      <img class="profileImg" alt="Daniel Luft-Martinez" src="daniel.jpg" style="background-clip: content-box; box-shadow: inset 0 0 0 15px #041108;">
+      <img class="profileImg" alt="Daniel Luft-Martinez" src="daniel.jpg">
       <div class="overlay">
         <a href="https://www.linkedin.com/in/daniel-luft-martinez/" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
@@ -83,7 +83,7 @@
 <div class="row">
   <div class="profile">
     <div class="container">
-      <img class="profileImg" alt="Shealtiel Mulder" src="shealtiel.png" style="background-clip: content-box; box-shadow: inset 0 0 0 15px #6fffff;">
+      <img class="profileImg" alt="Shealtiel Mulder" src="shealtiel.png">
       <div class="overlay">
         <a href="https://www.linkedin.com/in/shealtiel-mulder-6329641b0/" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
@@ -115,9 +115,12 @@
   </div>
   <div class="message">
     <h2>Melanie Wong</h2>
-    <p>I’m interested in learning and applying modern technologies such as 
+    <span>I’m interested in learning and applying modern technologies such as 
                                 mobile development and cloud computing to create meaningful experiences 
-                                for users. My favorite color from the app is called Blue Nebula.</p>
+                                for users. My favorite color from the app is called 
+                                <div class="popup" onclick="onclickMelanie()">"Blue Nebula"
+                                  <span class="popupsquare" id="melaniePopup"><div class="square" style="background-color: #1199ff;"></div></span>
+                                </div></span>
   </div>
 </div>
 <div class="row">
@@ -149,6 +152,11 @@ function onclickDaniel() {
   
 function onclickShealtiel() {
   var popup = document.getElementById("shealtielPopup");
+  popup.classList.toggle("show");
+}
+
+function onclickMelanie() {
+  var popup = document.getElementById("melaniePopup");
   popup.classList.toggle("show");
 }
 </script>
