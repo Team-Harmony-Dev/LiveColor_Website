@@ -76,7 +76,10 @@
                                 if it's outside of my comfort zone. My favorite color in the app is
                                 called 
                                 <div class="popup" onclick="onclickDaniel()">"Jedi Night"
-                                  <span class="popupsquare" id="danielPopup"><div class="square" style="background-color: #041108;"></div></span>
+                                  <span class="popupsquare" id="danielPopup">
+                                    <div class="square" style="background-color: #041108;"></div>
+                                    <b>#041108</b>
+                                  </span>
                                 </div> a deep dark green.</span>
   </div>
 </div>
