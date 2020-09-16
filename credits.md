@@ -78,7 +78,7 @@
                                 <div class="popup" onclick="onclickDaniel()">"Jedi Night"
                                   <span class="popupsquare" id="danielPopup">
                                     <div class="square" style="background-color: #041108;"></div>
-                                    <b>HEX COLOR CODE<br>#041108</b>
+                                    <b>HEX<br>#041108</b>
                                   </span>
                                 </div> a deep dark green.</span>
   </div>
