@@ -8,8 +8,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Color Picking
 
-<img height="322" src="color_picker.gif">
-
+<img class="step1" height="322" src="color_picker.gif">
+<img class="step2" height="322" src="color_picker.gif">
+<img class="step3" height="322" src="color_picker.gif">
 ---
 
 ### Color Info
