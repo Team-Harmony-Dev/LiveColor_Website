@@ -101,7 +101,10 @@
                                 on this project alongside my colleagues and friends. My favourite color
                                 in the app is called 
                                 <div class="popup" onclick="onclickShealtiel()">"Aggressive Baby Blue"
-                                  <span class="popupsquare" id="shealtielPopup"><div class="square" style="background-color: #6fffff;"></div></span>
+                                  <span class="popupsquare" id="shealtielPopup">
+                                    <div class="square" style="background-color: #6fffff;"></div>
+                                    <b>HEX<br>#6fffff</b>
+                                  </span>
                                 </div> what a silly name!</span>
   </div>
 </div>
@@ -122,7 +125,10 @@
                                 mobile development and cloud computing to create meaningful experiences 
                                 for users. My favorite color from the app is called 
                                 <div class="popup" onclick="onclickMelanie()">"Blue Nebula"
-                                  <span class="popupsquare" id="melaniePopup"><div class="square" style="background-color: #1199ff;"></div></span>
+                                  <span class="popupsquare" id="melaniePopup">
+                                    <div class="square" style="background-color: #1199ff;"></div>
+                                    <b>HEX<br>#1199ff</b>
+                                  </span>
                                 </div></span>
   </div>
 </div>
