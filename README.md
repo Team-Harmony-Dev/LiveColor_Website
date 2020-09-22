@@ -8,21 +8,19 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Color Picking
 
-<img id="img1" class="step1" height="322" src="color_picker.gif">
-<img id="img2" class="step2" height="322" src="color_info.png">
-<img id="img3" class="step3" height="322" src="harmonies.png">
+<img id="img1CP" class="step1CP" height="322" src="color_picker.gif">
+<img id="img2CP" class="step2CP" height="322" src="color_info.png">
+<img id="img3CP" class="step3CP" height="322" src="harmonies.png">
 <div class="center">
   <div class="pagination">
-  <a id="link1" onclick="onStep1()" class="active">1</a>
-  <a id="link2" onclick="onStep2()">2</a>
-  <a id="link3" onclick="onStep3()">3</a>
+  <a id="link1CP" onclick="onStep1CP()" class="activeCP">1</a>
+  <a id="link2CP" onclick="onStep2CP()">2</a>
+  <a id="link3CP" onclick="onStep3CP()">3</a>
   </div>
 </div>
 ---
 
 ### Color Info
-
-<img height="322" src="color_info.png">
 
 ---
 
@@ -43,43 +41,43 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <a href="./credits.html">Meet the Team!</a>
 
 <script>
- //these 3 functions switch between the 3 tutorial images
-  function onStep1() {
-    var x = document.getElementsByClassName("active");
+ //these 3 functions switch between the 3 tutorial images for Color Picking (C.P.)
+  function onStep1CP() {
+    var x = document.getElementsByClassName("activeCP");
     var i;
     for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("active");
+      x[i].classList.remove("activeCP");
     }
-    document.getElementById("link1").classList.add("active");
+    document.getElementById("CPlink1").classList.add("activeCP");
     //
-    document.getElementById("img1").style.display = "block";
-    document.getElementById("img2").style.display = "none";
-    document.getElementById("img3").style.display = "none";
+    document.getElementById("img1CP").style.display = "block";
+    document.getElementById("img2CP").style.display = "none";
+    document.getElementById("img3CP").style.display = "none";
   }
   
-  function onStep2() {
-    var x = document.getElementsByClassName("active");
+  function CPonStep2() {
+    var x = document.getElementsByClassName("CPactive");
     var i;
     for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("active");
+      x[i].classList.remove("CPactive");
     }
-    document.getElementById("link2").classList.add("active");
+    document.getElementById("CPlink2").classList.add("CPactive");
     //
-    document.getElementById("img1").style.display = "none";
-    document.getElementById("img2").style.display = "block";
-    document.getElementById("img3").style.display = "none";
+    document.getElementById("CPimg1").style.display = "none";
+    document.getElementById("CPimg2").style.display = "block";
+    document.getElementById("CPimg3").style.display = "none";
   }
   
-  function onStep3() {
-    var x = document.getElementsByClassName("active");
+  function CPonStep3() {
+    var x = document.getElementsByClassName("CPactive");
     var i;
     for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("active");
+      x[i].classList.remove("CPactive");
     }
-    document.getElementById("link3").classList.add("active");
+    document.getElementById("CPlink3").classList.add("CPactive");
     //
-    document.getElementById("img1").style.display = "none";
-    document.getElementById("img2").style.display = "none";
-    document.getElementById("img3").style.display = "block";
+    document.getElementById("CPimg1").style.display = "none";
+    document.getElementById("CPimg2").style.display = "none";
+    document.getElementById("CPimg3").style.display = "block";
   }
 </script>
