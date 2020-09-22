@@ -11,6 +11,15 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <img class="step1" height="322" src="color_picker.gif">
 <img class="step2" height="322" src="color_picker.gif">
 <img class="step3" height="322" src="color_picker.gif">
+<div class="center">
+  <div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#" class="active">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">&raquo;</a>
+  </div>
+</div>
 ---
 
 ### Color Info
