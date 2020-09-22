@@ -1,7 +1,7 @@
 
 ## About
 
-The aim of this project is to provide the user with an app for all their color-picking needs. Simply take a photo with your camera or upload an existing image to begin. Save your favorite colors, make palettes, generate harmonies, and edit colors. The Color Info page makes it easy to copy the HEX, RGB, and HSV values of your chosen color so you can use your favorite colors elsewhere.
+Looking for a convenient color-picking experience on the go? Look no further than LiveColor. All it takes to get started is simply uploading a photo from your mobile device’s camera roll. From there you’ll be able to save colors directly from your own photos! Save your favorite colors, design your own palettes, generate complex harmonies, and even edit colors all within LiveColor.  
 
 ## Features
 
