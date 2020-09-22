@@ -191,7 +191,8 @@
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /*for browsers that do not support gradients */
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   color: white;
   border: 1px solid #4CAF50;
 }
