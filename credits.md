@@ -78,7 +78,7 @@
                                 <div class="popup" onclick="onclickDaniel()">"Jedi Night"
                                   <span class="popupsquare" id="danielPopup">
                                     <div class="square" style="background-color: #041108;"></div>
-                                    <b>HEX<br>#041108</b>
+                                    <b>#041108</b>
                                   </span>
                                 </div> a deep dark green.</span>
   </div>
@@ -103,7 +103,7 @@
                                 <div class="popup" onclick="onclickShealtiel()">"Aggressive Baby Blue"
                                   <span class="popupsquare" id="shealtielPopup">
                                     <div class="square" style="background-color: #6fffff;"></div>
-                                    <b>HEX<br>#6fffff</b>
+                                    <b>#6fffff</b>
                                   </span>
                                 </div> what a silly name!</span>
   </div>
@@ -127,7 +127,7 @@
                                 <div class="popup" onclick="onclickMelanie()">"Blue Nebula"
                                   <span class="popupsquare" id="melaniePopup">
                                     <div class="square" style="background-color: #1199ff;"></div>
-                                    <b>HEX<br>#1199ff</b>
+                                    <b>#1199ff</b>
                                   </span>
                                 </div></span>
   </div>
