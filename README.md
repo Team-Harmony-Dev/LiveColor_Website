@@ -4,7 +4,7 @@
 Looking for a convenient color-picking experience on the go? Look no further than LiveColor. All it takes to get started is simply uploading a photo from your mobile device’s camera roll. From there you’ll be able to save colors directly from your own photos! Save your favorite colors, design your own palettes, generate complex harmonies, and even edit colors all within LiveColor.  
 
 <h2 style="margin: auto;">Features</h2>
-
+---
 
 ### Color Picking
 
@@ -34,10 +34,18 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 </div>
 ---
 
-### Harmonies
+### Generating Harmonies
 
-<img height="322" src="harmonies.png">
-
+<img id="img1CH" class="step1CH" height="322" src="color_picker.gif">
+<img id="img2CH" class="step2CH" height="322" src="color_info.png">
+<img id="img3CH" class="step3CH" height="322" src="harmonies.png">
+<div class="center">
+  <div class="pagination">
+  <a id="link1CH" onclick="onStep1CH()" class="activeCH">1</a>
+  <a id="link2CH" onclick="onStep2CH()">2</a>
+  <a id="link3CH" onclick="onStep3CH()">3</a>
+  </div>
+</div>
 ---
 
 ### Installation
@@ -129,5 +137,45 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "none";
     document.getElementById("img2CI").style.display = "none";
     document.getElementById("img3CI").style.display = "block";
+  }
+  
+  //these 3 functions switch between the 3 tutorial images for Color Harmonies (C.H.)
+  function onStep1CH() {
+    var x = document.getElementsByClassName("activeCH");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCH");
+    }
+    document.getElementById("link1CH").classList.add("activeCH");
+    //
+    document.getElementById("img1CH").style.display = "block";
+    document.getElementById("img2CH").style.display = "none";
+    document.getElementById("img3CH").style.display = "none";
+  }
+  
+  function onStep2CH() {
+    var x = document.getElementsByClassName("activeCH");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCH");
+    }
+    document.getElementById("link2CH").classList.add("activeCH");
+    //
+    document.getElementById("img1CH").style.display = "none";
+    document.getElementById("img2CH").style.display = "block";
+    document.getElementById("img3CH").style.display = "none";
+  }
+  
+  function onStep3CH() {
+    var x = document.getElementsByClassName("activeCH");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCH");
+    }
+    document.getElementById("link3CH").classList.add("activeCH");
+    //
+    document.getElementById("img1CH").style.display = "none";
+    document.getElementById("img2CH").style.display = "none";
+    document.getElementById("img3CH").style.display = "block";
   }
 </script>
