@@ -8,15 +8,15 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Color Picking
 
-<img class="step1" height="322" src="color_picker.gif">
-<img class="step2" height="322" src="color_picker.gif">
-<img class="step3" height="322" src="color_picker.gif">
+<img id="img1" class="step1" height="322" src="color_picker.gif">
+<img id="img2" class="step2" height="322" src="color_info.png">
+<img id="img3" class="step3" height="322" src="harmonies.png">
 <div class="center">
   <div class="pagination">
   <a href="#">&laquo;</a>
-  <a id="img1" onclick="onStep1()" class="active">1</a>
-  <a id="img2" onclick="onStep2()">2</a>
-  <a id="img3" onclick="onStep3()">3</a>
+  <a onclick="onStep1()" class="active">1</a>
+  <a onclick="onStep2()">2</a>
+  <a onclick="onStep3()">3</a>
   <a href="#">&raquo;</a>
   </div>
 </div>
