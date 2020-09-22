@@ -14,9 +14,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <div class="center">
   <div class="pagination">
   <a href="#">&laquo;</a>
-  <a href="#" class="active">1</a>
-  <a href="#">2</a>
-  <a href="#">3</a>
+  <a id="img1" onclick="onStep1()" class="active">1</a>
+  <a id="img2" onclick="onStep2()">2</a>
+  <a id="img3" onclick="onStep3()">3</a>
   <a href="#">&raquo;</a>
   </div>
 </div>
@@ -43,3 +43,24 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ## About Us
 <a href="./credits.html">Meet the Team!</a>
+
+<script>
+ //these 3 functions switch between the 3 tutorial images
+  function onStep1() {
+    document.getElementById("img1").style.display = "block";
+    document.getElementById("img2").style.display = "none";
+    document.getElementById("img3").style.display = "none";
+  }
+  
+  function onStep2() {
+    document.getElementById("img1").style.display = "none";
+    document.getElementById("img2").style.display = "block";
+    document.getElementById("img3").style.display = "none";
+  }
+  
+  function onStep3() {
+    document.getElementById("img1").style.display = "none";
+    document.getElementById("img2").style.display = "none";
+    document.getElementById("img3").style.display = "block";
+  }
+</script>
