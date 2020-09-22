@@ -157,17 +157,17 @@
 /* ---------------------------- */
 /* CSS for Pagination*/
 
-.step1 {
+.step1CP {
   display: block;
   margin: auto;
 }
 
-.step2 {
+.step2CP {
   display: none;
   margin: auto;
 }
 
-.step3 {
+.step3CP {
   display: none;
   margin: auto;
 }
@@ -190,7 +190,7 @@
   margin: 0 4px;
 }
 
-.active {
+.activeCP {
   background-color: #4CAF50; /*for browsers that do not support gradients */
   background-image: linear-gradient(to right, #e13e3e, #ef7422, #fcc438, #97d465, #45cdb2, #43a5da, #ad5eb2, #eb7ab3);
   color: white;
