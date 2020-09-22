@@ -13,9 +13,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <img id="img3" class="step3" height="322" src="harmonies.png">
 <div class="center">
   <div class="pagination">
-  <a onclick="onStep1()" class="active">1</a>
-  <a onclick="onStep2()">2</a>
-  <a onclick="onStep3()">3</a>
+  <a id="link1" onclick="onStep1()" class="active">1</a>
+  <a id="link2" onclick="onStep2()">2</a>
+  <a id="link3" onclick="onStep3()">3</a>
   </div>
 </div>
 ---
@@ -50,8 +50,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     for (i = 0; i < x.length; i++) {
       x[i].classList.remove("active");
     }
+    document.getElementById("link1").classList.add("active");
+    //
     document.getElementById("img1").style.display = "block";
-    document.getElementById("img1").classList.add("active");
     document.getElementById("img2").style.display = "none";
     document.getElementById("img3").style.display = "none";
   }
@@ -62,9 +63,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     for (i = 0; i < x.length; i++) {
       x[i].classList.remove("active");
     }
+    document.getElementById("link2").classList.add("active");
+    //
     document.getElementById("img1").style.display = "none";
     document.getElementById("img2").style.display = "block";
-    document.getElementById("img2").classList.add("active");
     document.getElementById("img3").style.display = "none";
   }
   
@@ -74,9 +76,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     for (i = 0; i < x.length; i++) {
       x[i].classList.remove("active");
     }
+    document.getElementById("link3").classList.add("active");
+    //
     document.getElementById("img1").style.display = "none";
     document.getElementById("img2").style.display = "none";
     document.getElementById("img3").style.display = "block";
-    document.getElementById("img3").classList.add("active");
   }
 </script>
