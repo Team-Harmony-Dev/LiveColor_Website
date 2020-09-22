@@ -48,36 +48,36 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     for (i = 0; i < x.length; i++) {
       x[i].classList.remove("activeCP");
     }
-    document.getElementById("CPlink1").classList.add("activeCP");
+    document.getElementById("link1CP").classList.add("activeCP");
     //
     document.getElementById("img1CP").style.display = "block";
     document.getElementById("img2CP").style.display = "none";
     document.getElementById("img3CP").style.display = "none";
   }
   
-  function CPonStep2() {
-    var x = document.getElementsByClassName("CPactive");
+  function onStep2CP() {
+    var x = document.getElementsByClassName("activeCP");
     var i;
     for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("CPactive");
+      x[i].classList.remove("activeCP");
     }
-    document.getElementById("CPlink2").classList.add("CPactive");
+    document.getElementById("link2CP").classList.add("activeCP");
     //
-    document.getElementById("CPimg1").style.display = "none";
-    document.getElementById("CPimg2").style.display = "block";
-    document.getElementById("CPimg3").style.display = "none";
+    document.getElementById("img1CP").style.display = "none";
+    document.getElementById("img2CP").style.display = "block";
+    document.getElementById("img3CP").style.display = "none";
   }
   
-  function CPonStep3() {
-    var x = document.getElementsByClassName("CPactive");
+  function onStep3CP() {
+    var x = document.getElementsByClassName("activeCP");
     var i;
     for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("CPactive");
+      x[i].classList.remove("activeCP");
     }
-    document.getElementById("CPlink3").classList.add("CPactive");
+    document.getElementById("link3CP").classList.add("activeCP");
     //
-    document.getElementById("CPimg1").style.display = "none";
-    document.getElementById("CPimg2").style.display = "none";
-    document.getElementById("CPimg3").style.display = "block";
+    document.getElementById("img1CP").style.display = "none";
+    document.getElementById("img2CP").style.display = "none";
+    document.getElementById("img3CP").style.display = "block";
   }
 </script>
