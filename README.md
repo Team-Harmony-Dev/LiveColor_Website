@@ -45,20 +45,38 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <script>
  //these 3 functions switch between the 3 tutorial images
   function onStep1() {
+    var x = document.getElementsByClassName("active");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("active");
+    }
     document.getElementById("img1").style.display = "block";
+    document.getElementById("img1").classList.add("active");
     document.getElementById("img2").style.display = "none";
     document.getElementById("img3").style.display = "none";
   }
   
   function onStep2() {
+    var x = document.getElementsByClassName("active");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("active");
+    }
     document.getElementById("img1").style.display = "none";
     document.getElementById("img2").style.display = "block";
+    document.getElementById("img2").classList.add("active");
     document.getElementById("img3").style.display = "none";
   }
   
   function onStep3() {
+    var x = document.getElementsByClassName("active");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("active");
+    }
     document.getElementById("img1").style.display = "none";
     document.getElementById("img2").style.display = "none";
     document.getElementById("img3").style.display = "block";
+    document.getElementById("img3").classList.add("active");
   }
 </script>
