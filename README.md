@@ -22,6 +22,16 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Color Info
 
+<img id="img1CI" class="step1CI" height="322" src="color_picker.gif">
+<img id="img2CI" class="step2CI" height="322" src="color_info.png">
+<img id="img3CI" class="step3CI" height="322" src="harmonies.png">
+<div class="center">
+  <div class="pagination">
+  <a id="link1CI" onclick="onStep1CI()" class="activeCI">1</a>
+  <a id="link2CI" onclick="onStep2CI()">2</a>
+  <a id="link3CI" onclick="onStep3CI()">3</a>
+  </div>
+</div>
 ---
 
 ### Harmonies
@@ -79,5 +89,45 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CP").style.display = "none";
     document.getElementById("img2CP").style.display = "none";
     document.getElementById("img3CP").style.display = "block";
+  }
+  
+  //these 3 functions switch between the 3 tutorial images for Color Info (C.I.)
+  function onStep1CI() {
+    var x = document.getElementsByClassName("activeCI");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCI");
+    }
+    document.getElementById("link1CI").classList.add("activeCI");
+    //
+    document.getElementById("img1CI").style.display = "block";
+    document.getElementById("img2CI").style.display = "none";
+    document.getElementById("img3CI").style.display = "none";
+  }
+  
+  function onStep2CI() {
+    var x = document.getElementsByClassName("activeCI");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCI");
+    }
+    document.getElementById("link2CI").classList.add("activeCI");
+    //
+    document.getElementById("img1CI").style.display = "none";
+    document.getElementById("img2CI").style.display = "block";
+    document.getElementById("img3CI").style.display = "none";
+  }
+  
+  function onStep3CI() {
+    var x = document.getElementsByClassName("activeCI");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCI");
+    }
+    document.getElementById("link3CI").classList.add("activeCI");
+    //
+    document.getElementById("img1CI").style.display = "none";
+    document.getElementById("img2CI").style.display = "none";
+    document.getElementById("img3CI").style.display = "block";
   }
 </script>
