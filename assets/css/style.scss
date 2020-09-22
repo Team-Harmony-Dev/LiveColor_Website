@@ -198,6 +198,7 @@
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
 /* For Color Info */
 .step1CI {
   display: block;
@@ -215,6 +216,29 @@
 }
 
 .activeCI {
+  background-color: #4CAF50; /*for browsers that do not support gradients */
+  background-image: linear-gradient(to right, #e13e3e, #ef7422, #fcc438, #97d465, #45cdb2, #43a5da, #ad5eb2, #eb7ab3);
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+/* For Color Harmonies */
+.step1CH {
+  display: block;
+  margin: auto;
+}
+
+.step2CH {
+  display: none;
+  margin: auto;
+}
+
+.step3CH {
+  display: none;
+  margin: auto;
+}
+
+.activeCH {
   background-color: #4CAF50; /*for browsers that do not support gradients */
   background-image: linear-gradient(to right, #e13e3e, #ef7422, #fcc438, #97d465, #45cdb2, #43a5da, #ad5eb2, #eb7ab3);
   color: white;
