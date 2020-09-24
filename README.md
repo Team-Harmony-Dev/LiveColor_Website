@@ -1,6 +1,6 @@
 
 <h2 style="margin: auto;">About</h2>
-
+---
 Looking for a convenient color-picking experience on the go? Look no further than LiveColor. All it takes to get started is simply uploading a photo from your mobile device’s camera roll. From there you’ll be able to save colors directly from your own photos! Save your favorite colors, design your own palettes, generate complex harmonies, and even edit colors all within LiveColor.  
 
 <h2 style="margin: auto;">Features</h2>
