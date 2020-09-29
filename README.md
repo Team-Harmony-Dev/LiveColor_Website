@@ -8,9 +8,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Color Picking
 
-<img id="img1CP" class="step1CP" height="322" src="color_picker.gif">
-<img id="img2CP" class="step2CP" height="322" src="color_info.png">
-<img id="img3CP" class="step3CP" height="322" src="harmonies.png">
+<img id="img1CP" class="step1CP" height="322" src="1-colorpicking.png">
+<img id="img2CP" class="step2CP" height="322" src="2-colorpicking.png">
+<img id="img3CP" class="step3CP" height="322" src="3-colorpicking.png">
 <div class="center">
   <div class="pagination">
   <a id="link1CP" onclick="onStep1CP()" class="activeCP">1</a>
