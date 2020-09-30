@@ -25,19 +25,19 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 ---
 
 ### Color Info
-<div class="flex-container>
+<div class="flex-container">
   <img id="img1CI" class="step1CI" height="322" src="1-colorinfo.png">
   <img id="img2CI" class="step2CI" height="322" src="2-colorinfo.png"> 
   <img id="img3CI" class="step3CI" height="322" src="2-colorinfo.png"> 
-  <p id="instruction1CI" class="instruction1CI">To view the color info for the currently selected color, click on the Info icon in the color description. To see color info for colors you have already saved, go to your Saved Colors.</p>
+  <p id="instruction1CI" class="instruction1CI">To view the color info for the currently selected color, click on the Info icon in the color description. To see color info for       colors you have already saved, go to your Saved Colors.</p>
   <p id="instruction2CI" class="instruction2CI">Once in your Saved Colors simply tap on a color to view its Color Info.</p>
   <p id="instruction3CI" class="instruction3CI">From here you can view and edit your colors in Hex, RGB, and HSV.</p>
 </div>
 <div class="center">
   <div class="pagination">
-  <a id="link1CI" onclick="onStep1CI()" class="activeCI">1</a>
-  <a id="link2CI" onclick="onStep2CI()">2</a>
-  <a id="link3CI" onclick="onStep3CI()">3</a>
+    <a id="link1CI" onclick="onStep1CI()" class="activeCI">1</a>
+    <a id="link2CI" onclick="onStep2CI()">2</a>
+    <a id="link3CI" onclick="onStep3CI()">3</a>
   </div>
 </div>
 ---
@@ -131,6 +131,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "block";
     document.getElementById("img2CI").style.display = "none";
     document.getElementById("img3CI").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CI").style.display = "block";
+    document.getElementById("instruction2CI").style.display = "none";
+    document.getElementById("instruction3CI").style.display = "none";
   }
   
   function onStep2CI() {
@@ -144,6 +148,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "none";
     document.getElementById("img2CI").style.display = "block";
     document.getElementById("img3CI").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CI").style.display = "none";
+    document.getElementById("instruction2CI").style.display = "block";
+    document.getElementById("instruction3CI").style.display = "none";
   }
   
   function onStep3CI() {
@@ -157,6 +165,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "none";
     document.getElementById("img2CI").style.display = "none";
     document.getElementById("img3CI").style.display = "block";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CI").style.display = "none";
+    document.getElementById("instruction2CI").style.display = "none";
+    document.getElementById("instruction3CI").style.display = "block";
   }
   
   //these 3 functions switch between the 3 tutorial images for Color Harmonies (C.H.)
