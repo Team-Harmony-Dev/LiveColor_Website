@@ -44,9 +44,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Generating Harmonies
 <div class="flex-container">
-  <img id="img1CH" class="step1CH" height="322" src="color_picker.gif">
-  <img id="img2CH" class="step2CH" height="322" src="color_info.png">
-  <p id="instruction1CH" class="instruction1CH">Navigate to the Color Info of your desired color. Once there tap the "VIEW COLOR HARMONIES" button on the bottom.</p>
+  <img id="img1CH" class="step1CH" height="322" src="1-colorharmonies.png">
+  <img id="img2CH" class="step2CH" height="322" src="2-colorharmonies.gif">
+  <p id="instruction1CH" class="instruction1CH">Navigate to the Color Info of your desired color. Once there tap the <br>"VIEW COLOR HARMONIES" button on the bottom.</p>
   <p id="instruction2CH" class="instruction2CH">Scroll through our many automatically generated harmonies. If you find one you like, simply tap on it to display all the colors       in the harmony.</p>
 </div>
 <div class="center">
