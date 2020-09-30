@@ -12,7 +12,7 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   <img id="img2CP" class="step2CP" height="322" src="2-colorpicking.png">
   <img id="img3CP" class="step3CP" height="322" src="3-colorpicking.png">
   <p id="instruction1CP" class="instruction1CP">Begin by clicking the Add Image button. Then either take a photo with your device or upload a photo from your photo gallery.</p>
-  <p id="instruction2CP"class="instruction2CP">After selecting the desired color by tapping the image, press the Save Color button to save the color.</p>
+  <p id="instruction2CP" class="instruction2CP">After selecting the desired color by tapping the image, press the Save Color button to save the color.</p>
   <p id="instruction3CP" class="instruction3CP">Then click the Saved Colors icon on the bottom bar in order to see all the colors you have saved.</p>
 </div>
 <div class="center">
