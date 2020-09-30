@@ -43,15 +43,16 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 ---
 
 ### Generating Harmonies
-
-<img id="img1CH" class="step1CH" height="322" src="color_picker.gif">
-<img id="img2CH" class="step2CH" height="322" src="color_info.png">
-<img id="img3CH" class="step3CH" height="322" src="harmonies.png">
+<div class="flex-container">
+  <img id="img1CH" class="step1CH" height="322" src="color_picker.gif">
+  <img id="img2CH" class="step2CH" height="322" src="color_info.png">
+  <p id="instruction1CH" class="instruction1CH">Navigate to the Color Info of your desired color. Once there tap the "VIEW COLOR HARMONIES" button on the bottom.</p>
+  <p id="instruction2CH" class="instruction2CH">Scroll through our many automatically generated harmonies. If you find one you like, simply tap on it to display all the colors       in the harmony.</p>
+</div>
 <div class="center">
   <div class="pagination">
   <a id="link1CH" onclick="onStep1CH()" class="activeCH">1</a>
   <a id="link2CH" onclick="onStep2CH()">2</a>
-  <a id="link3CH" onclick="onStep3CH()">3</a>
   </div>
 </div>
 ---
@@ -182,7 +183,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     //
     document.getElementById("img1CH").style.display = "block";
     document.getElementById("img2CH").style.display = "none";
-    document.getElementById("img3CH").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CH").style.display = "block";
+    document.getElementById("instruction2CH").style.display = "none";
   }
   
   function onStep2CH() {
@@ -195,19 +198,8 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     //
     document.getElementById("img1CH").style.display = "none";
     document.getElementById("img2CH").style.display = "block";
-    document.getElementById("img3CH").style.display = "none";
-  }
-  
-  function onStep3CH() {
-    var x = document.getElementsByClassName("activeCH");
-    var i;
-    for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("activeCH");
-    }
-    document.getElementById("link3CH").classList.add("activeCH");
-    //
-    document.getElementById("img1CH").style.display = "none";
-    document.getElementById("img2CH").style.display = "none";
-    document.getElementById("img3CH").style.display = "block";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CH").style.display = "none";
+    document.getElementById("instruction2CH").style.display = "block";
   }
 </script>
