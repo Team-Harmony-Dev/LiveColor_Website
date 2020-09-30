@@ -27,7 +27,7 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 ### Color Info
 <div class="flex-container">
   <img id="img1CI" class="step1CI" height="322" src="1-colorinfo.png">
-  <img id="img2CI" class="step2CI" height="322" src="2-colorinfo.png"> 
+  <img id="img2CI" class="step2CI" height="322" src="3-colorpicking.png"> //uses the same image so I'm resuing it to save space
   <img id="img3CI" class="step3CI" height="322" src="3-colorinfo.png"> 
   <p id="instruction1CI" class="instruction1CI">To view the color info for the currently selected color, click on the Info icon in the color description. To see color info for       colors you have already saved, go to your Saved Colors.</p>
   <p id="instruction2CI" class="instruction2CI">Once in your Saved Colors simply tap on a color to view its Color Info.</p>
