@@ -246,14 +246,30 @@
 }
 /* ---------------------------- */
 
-/* CSS for flexbox surrounding the tutorial */
+/* CSS for flexbox surrounding the tutorial & the instruction text */
 .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.instruction {
+.instruction1CP {
+  display: block;
   margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+.instruction2CP {
+  display: none;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+}
+
+.instruction3CP {
+  display: none;
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
 }
 /* ---------------------------- */
