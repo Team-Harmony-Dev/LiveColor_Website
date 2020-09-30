@@ -22,9 +22,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 
 ### Color Info
 
-<img id="img1CI" class="step1CI" height="322" src="color_picker.gif">
-<img id="img2CI" class="step2CI" height="322" src="color_info.png">
-<img id="img3CI" class="step3CI" height="322" src="harmonies.png">
+<img id="img1CI" class="step1CI" height="322" src="1-colorinfo.png">
+<img id="img2CI" class="step2CI" height="322" src="2-colorinfo.png">
+<img id="img3CI" class="step3CI" height="322" src="2-colorinfo.png">
 <div class="center">
   <div class="pagination">
   <a id="link1CI" onclick="onStep1CI()" class="activeCI">1</a>
