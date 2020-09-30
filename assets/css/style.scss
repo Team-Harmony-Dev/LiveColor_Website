@@ -249,6 +249,7 @@
 /* CSS for flexbox surrounding the tutorial */
 .flex-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 /* ---------------------------- */
