@@ -56,14 +56,6 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   </div>
 </div>
 ---
-
-### Installation
-
-- Download **[Android Studio](https://developer.android.com/studio)**
-- Set up GitHub through Android Studio’s VCS options
-- Download the project
-- Using Android Studio’s AVD manager, set up and run an emulator using Pixel 2 API 27
-
 ## About Us
 <a href="./credits.html">Meet the Team!</a>
 
