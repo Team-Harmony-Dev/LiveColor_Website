@@ -11,7 +11,7 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   <img id="img1CP" class="step1CP" height="322" src="1-colorpicking.png">
   <img id="img2CP" class="step2CP" height="322" src="2-colorpicking.png">
   <img id="img3CP" class="step3CP" height="322" src="3-colorpicking.png">
-  <p>To see the color info for colors you have already saved, go to Saved Color "saved colors icon" and click on the desired color.(placeholder)</p>
+  <p class="instruction">To see the color info for colors you have already saved, go to Saved Color "saved colors icon" and click on the desired color.(placeholder)</p>
 </div>
 <div class="center">
   <div class="pagination">
