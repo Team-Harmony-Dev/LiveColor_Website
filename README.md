@@ -11,7 +11,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   <img id="img1CP" class="step1CP" height="322" src="1-colorpicking.png">
   <img id="img2CP" class="step2CP" height="322" src="2-colorpicking.png">
   <img id="img3CP" class="step3CP" height="322" src="3-colorpicking.png">
-  <p class="instruction">To see the color info for colors you have already saved, go to Saved Color "saved colors icon" and click on the desired color.(placeholder)</p>
+  <p id="instruction1CP" class="instruction1CP">Begin by clicking the Add Image button. Then either take a photo with your device or upload a photo from your photo gallery.</p>
+  <p id="instruction2CP"class="instruction2CP">After selecting the desired color by tapping the image, press the Save Color button to save the color.</p>
+  <p id="instruction3CP" class="instruction3CP">Then click the Saved Colors icon on the bottom bar in order to see all the colors you have saved.</p>
 </div>
 <div class="center">
   <div class="pagination">
@@ -73,6 +75,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CP").style.display = "block";
     document.getElementById("img2CP").style.display = "none";
     document.getElementById("img3CP").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CP").style.display = "block";
+    document.getElementById("instruction2CP").style.display = "none";
+    document.getElementById("instruction3CP").style.display = "none";
   }
   
   function onStep2CP() {
@@ -86,6 +92,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CP").style.display = "none";
     document.getElementById("img2CP").style.display = "block";
     document.getElementById("img3CP").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CP").style.display = "none";
+    document.getElementById("instruction2CP").style.display = "block";
+    document.getElementById("instruction3CP").style.display = "none";
   }
   
   function onStep3CP() {
@@ -99,6 +109,10 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CP").style.display = "none";
     document.getElementById("img2CP").style.display = "none";
     document.getElementById("img3CP").style.display = "block";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CP").style.display = "none";
+    document.getElementById("instruction2CP").style.display = "none";
+    document.getElementById("instruction3CP").style.display = "block";
   }
   
   //these 3 functions switch between the 3 tutorial images for Color Info (C.I.)
