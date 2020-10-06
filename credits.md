@@ -1,4 +1,4 @@
-eland<!-- Add icon library -->
+<!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <h1 class="title">Team Members</h1>
 <div class="row">
