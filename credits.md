@@ -1,4 +1,4 @@
-<!-- Add icon library -->
+eland<!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <h1 class="title">Team Members</h1>
 <div class="row">
@@ -41,10 +41,10 @@
     <span>I am a software engineer with a focus in data visualization and web development. Working on LiveColor taught
                                 me a lot about being a member of a development team and as overall a really great 
                                 experience. My favorite color in the app is 
-                                <div class="popup" onclick="onclickGabby()">"Irish Green"
+                                <div class="popup" onclick="onclickGabby()">"Ireland Green"
                                   <span class="popupsquare" id="gabbyPopup">
-                                    <div class="square" style="background-color: #019529;"></div>
-                                    <b>#019529</b>
+                                    <div class="square" style="background-color: #006c2e;"></div>
+                                    <b>#006c2e</b>
                                   </span>
                                 </div>.</span>
   </div>
