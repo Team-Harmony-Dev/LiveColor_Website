@@ -125,7 +125,7 @@
 <div class="row">
   <div class="profile">
     <div class="container">
-      <img class="profileImg" alt="Melanie Wong" src="melanie.jpg">
+      <img class="profileImg" alt="Melanie Wong" src="melanie.png">
       <div class="overlay">
         <a href="https://www.linkedin.com/in/mwong775/" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
