@@ -149,7 +149,7 @@
 <div class="row">
   <div class="profile">
     <div class="container">
-      <img class="profileImg" alt="Andrew Tran" src="andrew.png">
+      <img class="profileImg" alt="Andrew Tran" src="andrew.jpg">
       <div class="overlay">
         <a href="https://www.linkedin.com/in/andrewtgg/" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
