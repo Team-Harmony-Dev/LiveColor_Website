@@ -159,10 +159,16 @@
   </div>
   <div class="message">
     <h2>Andrew Tran</h2>
-    <p>I love AI and automation, so naturally I chose to help with UI on a
-                                color picking app. I very much enjoy developing with friends, even
-                                if it's outside of my comfort zone. My favorite color in the app is
-                                called "Jedi Night" a deep dark green.</p>
+    <span>I am a software engineer with interest in backend development. LiveColor was the first project 
+                               that I had ever worked on and the memories and experiences are things                                 
+                               that I will always cherish. I'm thankful for everyone on this team for making 
+                               this application a great one. My favorite color on this app is 
+                               <div class="popup" onclick="onclickAndrew()">"Wasabi"
+                                  <span class="popupsquare" id="andrewPopup">
+                                    <div class="square" style="background-color: #afd77f;"></div>
+                                    <b>#afd77f</b>
+                                  </span>
+                               </div>.</span>
   </div>
 </div>
 
@@ -195,6 +201,11 @@ function onclickGabby() {
 
 function onclickDustin() {
   var popup = document.getElementById("dustinPopup");
+  popup.classList.toggle("show");
+}
+
+function onclickAndrew() {
+  var popup = document.getElementById("andrewPopup");
   popup.classList.toggle("show");
 }
 </script>
