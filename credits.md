@@ -143,7 +143,7 @@
                                     <div class="square" style="background-color: #1199ff;"></div>
                                     <b>#1199ff</b>
                                   </span>
-                                </div></span>
+                                </div>.</span>
   </div>
 </div>
 <div class="row">
