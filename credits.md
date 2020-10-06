@@ -14,10 +14,15 @@
   </div>
   <div class="message">
     <h2>Paige Riola</h2>
-    <p>I love AI and automation, so naturally I chose to help with UI on a
-                                color picking app. I very much enjoy developing with friends, even
-                                if it's outside of my comfort zone. My favorite color in the app is
-                                called "Jedi Night" a deep dark green.</p>
+    <span>Hi! I'm an aspiring software developer and hobby artist whose interest happened to collide into this 
+                                 idea that I was somehow bold enough to pitch in my software design class and 
+                                 this happenned! I live and breathe Scrum. My favorite color is 
+                                 <div class="popup" onclick="onclickPaige()">"Tranquil Pool"
+                                  <span class="popupsquare" id="paigePopup">
+                                    <div class="square" style="background-color: #88ddff;"></div>
+                                    <b>#88ddff</b>
+                                  </span>
+                                </div>.</span>
   </div>
 </div>
 <div class="row">
@@ -33,10 +38,15 @@
   </div>
   <div class="message">
     <h2>Gabriella Lindsey</h2>
-    <p>I love AI and automation, so naturally I chose to help with UI on a
-                                color picking app. I very much enjoy developing with friends, even
-                                if it's outside of my comfort zone. My favorite color in the app is
-                                called "Jedi Night" a deep dark green.</p>
+    <span>I am a software engineer with a focus in data visualization and web development. Working on LiveColor taught
+                                me a lot about being a member of a development team and as overall a really great 
+                                experience. My favorite color in the app is 
+                                <div class="popup" onclick="onclickGabby()">"Irish Green"
+                                  <span class="popupsquare" id="gabbyPopup">
+                                    <div class="square" style="background-color: #019529;"></div>
+                                    <b>#019529</b>
+                                  </span>
+                                </div>.</span>
   </div>
 </div>
 <div class="row">
@@ -52,10 +62,14 @@
   </div>
   <div class="message">
     <h2>Dustin Seltz</h2>
-    <p>I love AI and automation, so naturally I chose to help with UI on a
-                                color picking app. I very much enjoy developing with friends, even
-                                if it's outside of my comfort zone. My favorite color in the app is
-                                called "Jedi Night" a deep dark green.</p>
+    <span>I'm a software developer and have enjoyed learning how to create an Andriod app with the LiveColor team. 
+                                 My favorite color is 
+                                 <div class="popup" onclick="onclickDustin()">"Poppy Pompadour"
+                                  <span class="popupsquare" id="dustinPopup">
+                                    <div class="square" style="background-color: #6b3fa0;"></div>
+                                    <b>#6b3fa0</b>
+                                  </span>
+                                </div>, a rich purple.</span>
   </div>
 </div>
 <div class="row">
@@ -166,6 +180,21 @@ function onclickShealtiel() {
 
 function onclickMelanie() {
   var popup = document.getElementById("melaniePopup");
+  popup.classList.toggle("show");
+}
+
+function onclickPaige() {
+  var popup = document.getElementById("paigePopup");
+  popup.classList.toggle("show");
+}
+
+function onclickGabby() {
+  var popup = document.getElementById("gabbyPopup");
+  popup.classList.toggle("show");
+}
+
+function onclickDustin() {
+  var popup = document.getElementById("dustinPopup");
   popup.classList.toggle("show");
 }
 </script>
