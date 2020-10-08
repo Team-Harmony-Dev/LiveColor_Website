@@ -59,6 +59,12 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   </div>
 </div>
 ---
+
+### Color of the Day
+<img height="322" src="cotd.png">
+<p class="instruction1CH">Discover and appreciate a different color every day with our Color of The Day feature! You might even get a special color for certain holidays!</p>
+---
+
 ## About Us
 <a href="./credits.html">Meet the Team!</a>
 
