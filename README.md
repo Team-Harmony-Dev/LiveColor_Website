@@ -24,20 +24,23 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 </div>
 ---
 
-### Color Info
+### Color Info & Editing
 <div class="flex-container">
   <img id="img1CI" class="step1CI" height="322" src="1-colorinfo.png">
   <img id="img2CI" class="step2CI" height="322" src="3-colorpicking.png"> <!--uses the same image so I'm resuing it to save space-->
   <img id="img3CI" class="step3CI" height="322" src="3-colorinfo.png"> 
+  <img id="img4CI" class="step4CI" height="322" src="4-colorinfo.png"> 
   <p id="instruction1CI" class="instruction1CI">To view the color info for the currently selected color, click on the Info icon in the color description. To see color info for       colors you have already saved, go to your Saved Colors.</p>
   <p id="instruction2CI" class="instruction2CI">Once in your Saved Colors simply tap on a color to view its Color Info.</p>
   <p id="instruction3CI" class="instruction3CI">From here you can view and edit your colors in HEX, RGB, and HSV.</p>
+  <p id="instruction4CI" class="instruction4CI">Modify your color in RGB or HSV with live comparison to the original color.</p>
 </div>
 <div class="center">
   <div class="pagination">
     <a id="link1CI" onclick="onStep1CI()" class="activeCI">1</a>
     <a id="link2CI" onclick="onStep2CI()">2</a>
     <a id="link3CI" onclick="onStep3CI()">3</a>
+    <a id="link4CI" onclick="onStep3CI()">3</a>
   </div>
 </div>
 ---
@@ -162,6 +165,25 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("instruction1CI").style.display = "none";
     document.getElementById("instruction2CI").style.display = "none";
     document.getElementById("instruction3CI").style.display = "block";
+  }
+  
+  function onStep4CI() {
+    var x = document.getElementsByClassName("activeCI");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCI");
+    }
+    document.getElementById("link4CI").classList.add("activeCI");
+    //
+    document.getElementById("img1CI").style.display = "none";
+    document.getElementById("img2CI").style.display = "none";
+    document.getElementById("img3CI").style.display = "none";
+    document.getElementById("img4CI").style.display = "block";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CI").style.display = "none";
+    document.getElementById("instruction2CI").style.display = "none";
+    document.getElementById("instruction3CI").style.display = "none";
+    document.getElementById("instruction4CI").style.display = "block";
   }
   
   //these 3 functions switch between the 3 tutorial images for Color Harmonies (C.H.)
