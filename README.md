@@ -70,9 +70,9 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   <img id="img1CS" class="step1CS" height="322" src="1-settings.png">
   <img id="img2CS" class="step2CS" height="322" src="2-settings.png">
   <img id="img3CS" class="step3CS" height="322" src="darkmode.png">
-  <p id="instruction1CS" class="instruction1CS"></p>
-  <p id="instruction2CS" class="instruction2CS"></p>
-  <p id="instruction3CS" class="instruction3CS"></p>
+  <p id="instruction1CS" class="instruction1CS">To access Settings for the LiveColor app click the cog icon on the bottom right.</p>
+  <p id="instruction2CS" class="instruction2CS">Tweak the any of our app settings to match your preferences. Check out the "Appearance" settings page to try out Dark Mode.</p>
+  <p id="instruction3CS" class="instruction3CS">From here Enable or Disable Dark Mode for the app. Type or paste in a hex value for the accent color for the current mode: Dark        or Light.</p>
 </div>
 <div class="center">
   <div class="pagination">
