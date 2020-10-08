@@ -65,6 +65,24 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <p class="instruction1COTD">Discover and appreciate a different color every day with our Color of The Day feature! You might even get a special color for certain holidays!</p>
 ---
 
+### Customization & Settings
+<div class="flex-container">
+  <img id="img1CS" class="step1CS" height="322" src="1-settings.png">
+  <img id="img2CS" class="step2CS" height="322" src="2-settings.png">
+  <img id="img3CS" class="step3CS" height="322" src="darkmode.png">
+  <p id="instruction1CS" class="instruction1CS"></p>
+  <p id="instruction2CS" class="instruction2CS"></p>
+  <p id="instruction3CS" class="instruction3CS"></p>
+</div>
+<div class="center">
+  <div class="pagination">
+  <a id="link1CS" onclick="onStep1CS()" class="activeCS">1</a>
+  <a id="link2CS" onclick="onStep2CS()">2</a>
+  <a id="link3CS" onclick="onStep3CS()">3</a>
+  </div>
+</div>
+---
+
 ## About Us
 <a href="./credits.html">Meet the Team!</a>
 
@@ -121,7 +139,7 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("instruction3CP").style.display = "block";
   }
   
-  //these 3 functions switch between the 3 tutorial images for Color Info (C.I.)
+  //these 4 functions switch between the 4 tutorial images for Color Info (C.I.)
   function onStep1CI() {
     var x = document.getElementsByClassName("activeCI");
     var i;
@@ -227,5 +245,57 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     //Displays the correct instruction message
     document.getElementById("instruction1CH").style.display = "none";
     document.getElementById("instruction2CH").style.display = "block";
+  }
+  
+  //these 3 functions switch between the 3 tutorial images for Customization and Settings. (C.S.)
+  function onStep1CS() {
+    var x = document.getElementsByClassName("activeCS");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCS");
+    }
+    document.getElementById("link1CS").classList.add("activeCS");
+    //
+    document.getElementById("img1CS").style.display = "block";
+    document.getElementById("img2CS").style.display = "none";
+    document.getElementById("img3CS").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CS").style.display = "block";
+    document.getElementById("instruction2CS").style.display = "none";
+    document.getElementById("instruction3CS").style.display = "none";
+  }
+  
+  function onStep2CS() {
+    var x = document.getElementsByClassName("activeCS");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCS");
+    }
+    document.getElementById("link2CS").classList.add("activeCS");
+    //
+    document.getElementById("img1CS").style.display = "none";
+    document.getElementById("img2CS").style.display = "block";
+    document.getElementById("img3CS").style.display = "none";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CS").style.display = "none";
+    document.getElementById("instruction2CS").style.display = "block";
+    document.getElementById("instruction3CS").style.display = "none";
+  }
+  
+  function onStep3CS() {
+    var x = document.getElementsByClassName("activeCS");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCS");
+    }
+    document.getElementById("link3CS").classList.add("activeCS");
+    //
+    document.getElementById("img1CS").style.display = "none";
+    document.getElementById("img2CS").style.display = "none";
+    document.getElementById("img3CS").style.display = "block";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CS").style.display = "none";
+    document.getElementById("instruction2CS").style.display = "none";
+    document.getElementById("instruction3CS").style.display = "block";
   }
 </script>
