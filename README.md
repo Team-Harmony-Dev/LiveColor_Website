@@ -32,7 +32,7 @@ Looking for a convenient color-picking experience on the go? Look no further tha
   <img id="img4CI" class="step4CI" height="322" src="4-colorinfo.png"> 
   <p id="instruction1CI" class="instruction1CI">To view the color info for the currently selected color, click on the Info icon in the color description. To see color info for       colors you have already saved, go to your Saved Colors.</p>
   <p id="instruction2CI" class="instruction2CI">Once in your Saved Colors simply tap on a color to view its Color Info.</p>
-  <p id="instruction3CI" class="instruction3CI">From here you can view and edit your colors in HEX, RGB, and HSV.</p>
+  <p id="instruction3CI" class="instruction3CI">From here you can view and edit your colors in HEX, RGB, and HSV. To edit a color, tap the pencil icon in the top right.</p>
   <p id="instruction4CI" class="instruction4CI">Modify your color in RGB or HSV with live comparison to the original color.</p>
 </div>
 <div class="center">
@@ -40,7 +40,7 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     <a id="link1CI" onclick="onStep1CI()" class="activeCI">1</a>
     <a id="link2CI" onclick="onStep2CI()">2</a>
     <a id="link3CI" onclick="onStep3CI()">3</a>
-    <a id="link4CI" onclick="onStep3CI()">3</a>
+    <a id="link4CI" onclick="onStep4CI()">4</a>
   </div>
 </div>
 ---
