@@ -127,10 +127,12 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "block";
     document.getElementById("img2CI").style.display = "none";
     document.getElementById("img3CI").style.display = "none";
+    document.getElementById("img4CI").style.display = "none";
     //Displays the correct instruction message
     document.getElementById("instruction1CI").style.display = "block";
     document.getElementById("instruction2CI").style.display = "none";
     document.getElementById("instruction3CI").style.display = "none";
+    document.getElementById("instruction4CI").style.display = "none";
   }
   
   function onStep2CI() {
@@ -144,10 +146,12 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "none";
     document.getElementById("img2CI").style.display = "block";
     document.getElementById("img3CI").style.display = "none";
+    document.getElementById("img4CI").style.display = "none";
     //Displays the correct instruction message
     document.getElementById("instruction1CI").style.display = "none";
     document.getElementById("instruction2CI").style.display = "block";
     document.getElementById("instruction3CI").style.display = "none";
+    document.getElementById("instruction4CI").style.display = "none";
   }
   
   function onStep3CI() {
@@ -161,10 +165,12 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     document.getElementById("img1CI").style.display = "none";
     document.getElementById("img2CI").style.display = "none";
     document.getElementById("img3CI").style.display = "block";
+    document.getElementById("img4CI").style.display = "none";
     //Displays the correct instruction message
     document.getElementById("instruction1CI").style.display = "none";
     document.getElementById("instruction2CI").style.display = "none";
     document.getElementById("instruction3CI").style.display = "block";
+    document.getElementById("instruction4CI").style.display = "none";
   }
   
   function onStep4CI() {
