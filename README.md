@@ -49,14 +49,16 @@ Looking for a convenient color-picking experience on the go? Look no further tha
 <div class="flex-container">
   <img id="img1CH" class="step1CH" height="322" src="1-colorharmonies.png">
   <img id="img2CH" class="step2CH" height="322" src="colorharmonies.gif">
+  <img id="img3CH" class="step3CH" height="322" src="4-colorharmonies.png">
   <p id="instruction1CH" class="instruction1CH">Navigate to the Color Info of your desired color. Once there tap the <br>"VIEW COLOR HARMONIES" button on the bottom.</p>
-  <p id="instruction2CH" class="instruction2CH">Scroll through our many automatically generated harmonies. If you find one you like, simply tap on it to display all the colors       in the harmony.<br>
-    From here, you can look at the info for any of the colors in the palette as you would for any other color! If you like the palette and want to save it, you can hit the save     button in the top right corner and set a name for your new palette.</p>
+  <p id="instruction2CH" class="instruction2CH">Scroll through our many automatically generated harmonies. If you find one you like, simply tap on it to display all the colors       in the harmony.</p>
+  <p id="instruction3CH" class="instruction3CH">From here, you can look at the info for any of the colors in the palette as you would for any other color! If you like the           palette and want to save it, you can hit the save button in the top right corner and set a name for your new palette.</p>
 </div>
 <div class="center">
   <div class="pagination">
-  <a id="link1CH" onclick="onStep1CH()" class="activeCH">1</a>
-  <a id="link2CH" onclick="onStep2CH()">2</a>
+    <a id="link1CH" onclick="onStep1CH()" class="activeCH">1</a>
+    <a id="link2CH" onclick="onStep2CH()">2</a>
+    <a id="link3CH" onclick="onStep3CH()">3</a>
   </div>
 </div>
 ---
@@ -228,9 +230,11 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     //
     document.getElementById("img1CH").style.display = "block";
     document.getElementById("img2CH").style.display = "none";
+    document.getElementById("img3CH").style.display = "none";
     //Displays the correct instruction message
     document.getElementById("instruction1CH").style.display = "block";
     document.getElementById("instruction2CH").style.display = "none";
+    document.getElementById("instruction3CH").style.display = "none";
   }
   
   function onStep2CH() {
@@ -243,9 +247,28 @@ Looking for a convenient color-picking experience on the go? Look no further tha
     //
     document.getElementById("img1CH").style.display = "none";
     document.getElementById("img2CH").style.display = "block";
+    document.getElementById("img3CH").style.display = "none";
     //Displays the correct instruction message
     document.getElementById("instruction1CH").style.display = "none";
     document.getElementById("instruction2CH").style.display = "block";
+    document.getElementById("instruction3CH").style.display = "none";
+  }
+  
+  function onStep3CH() {
+    var x = document.getElementsByClassName("activeCH");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].classList.remove("activeCH");
+    }
+    document.getElementById("link3CH").classList.add("activeCH");
+    //
+    document.getElementById("img1CH").style.display = "none";
+    document.getElementById("img2CH").style.display = "none";
+    document.getElementById("img3CH").style.display = "block";
+    //Displays the correct instruction message
+    document.getElementById("instruction1CH").style.display = "none";
+    document.getElementById("instruction2CH").style.display = "none";
+    document.getElementById("instruction3CH").style.display = "block";
   }
   
   //these 3 functions switch between the 3 tutorial images for Customization and Settings. (C.S.)
