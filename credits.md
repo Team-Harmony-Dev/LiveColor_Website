@@ -102,7 +102,7 @@
     <div class="container">
       <img class="profileImg" alt="Shealtiel Mulder" src="shealtiel.png">
       <div class="overlay">
-        <a href="https://www.linkedin.com/in/shealtiel-mulder-6329641b0/" class="icon" title="LinkedIn Profile">
+        <a href="https://www.linkedin.com/in/shealtiel-mulder" class="icon" title="LinkedIn Profile">
           <i class="fa fa-linkedin"></i>
         </a>
       </div>
